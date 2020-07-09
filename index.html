@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Веб студия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <!--Навигация-->
+    <header class="header">
+      <div class="container">
+        <nav class="header-item">
+          <a class="logo" href="./index.html" lang="en"
+            ><span class="logo-first">Web</span> Studio</a
+          >
+          <ul class="site-nav">
+            <li class="site-item">
+              <a class="link current" href="./index.html">Студия</a>
+            </li>
+            <li class="site-item">
+              <a class="link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-item">
+              <a class="link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="adress-nav">
+          <li class="adress-item">
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <!--Секция "герой" -->
+      <section class="hero">
+        <h1 class="section-hero">
+          Эффективные решения<br />
+          для вашего бизнеса
+        </h1>
+        <button class="button">Заказать услугу</button>
+      </section>
+
+      <!--Преимущества-->
+      <section class="advantage">
+        <h2 hidden>Преимущества</h2>
+        <!--Абзац использовала для того, чтобы его потом скрыть. Как в видео у Александра.-->
+        <ul>
+          <li>
+            <img src="./img/antenna.svg" alt="Антенна" width="70" height="70" />
+            <h3 class="advantage-title">Внимание к деталям</h3>
+            <p class="advantage-text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+
+          <li>
+            <img src="./img/clock.svg" alt="Часы" width="70" height="70" />
+            <h3 class="advantage-title">Пунктуальность</h3>
+            <p class="advantage-text">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+
+          <li>
+            <img
+              src="./img/diagram.svg"
+              alt="Диаграмма"
+              width="70"
+              height="70"
+            />
+            <h3 class="advantage-title">Планирование</h3>
+            <p class="advantage-text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+
+          <li>
+            <img
+              src="./img/astronaut.svg"
+              alt="Космонавт"
+              width="70"
+              height="70"
+            />
+            <h3 class="advantage-title">Современные технологии</h3>
+            <p class="advantage-text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!--Род деятельности-->
+      <section class="activity">
+        <h2 class="activity-title">Чем мы занимаемся</h2>
+
+        <ul>
+          <li>
+            <img
+              src="./img/laptop.jpg"
+              alt="Ноутбук"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-type">Десктопные приложения</h3>
+          </li>
+
+          <li>
+            <img
+              src="./img/mobile-phone.jpg"
+              alt="Мобильный телефон"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-type">Мобильные приложения</h3>
+          </li>
+
+          <li>
+            <img
+              src="./img/pc.jpg"
+              alt="Стационарный компьютер"
+              width="370"
+              height="294"
+            />
+            <h3 class="activity-type">Дизайнерские решения</h3>
+          </li>
+        </ul>
+      </section>
+
+      <!--Команда-->
+      <section class="team">
+        <h2 class="team-title">Наша команда</h2>
+        <ul>
+          <li>
+            <img
+              src="./img/Nikolay.jpg"
+              alt="Николай"
+              width="270"
+              height="260"
+            />
+            <h3 class="team-name">Николай Кучеренко</h3>
+            <p class="team-position" lang="en">Product Designer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграмм"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Твиттер"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук"></a>
+              </li>
+              <li>
+                <a href="" aria-label="ЛинкдИн"></a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <img src="./img/Olga.jpg" alt="Ольга" width="270" height="260" />
+            <h3 class="team-name">Ольга Иванова</h3>
+            <p class="team-position" lang="en">Frontend Developer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграмм"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Твиттер"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук"></a>
+              </li>
+              <li>
+                <a href="" aria-label="ЛинкдИн"></a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <img src="./img/Andrey.jpg" alt="Андрей" width="270" height="260" />
+            <h3 class="team-name">Андрей Шевченко</h3>
+            <p class="team-position" lang="en">Marketing</p>
+            <ul>
+              <li>
+                <a href="" aria-label="Инстаграмм"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Твиттер"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Фейсбук"></a>
+              </li>
+              <li>
+                <a href="" aria-label="ЛинкдИн"></a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <img src="./img/Ivan.jpg" alt="Иван" width="270" height="260" />
+            <h3 class="team-name">Иван Николаев</h3>
+            <p class="team-position" lang="en">UI Designer</p>
+            <ul>
+              <li>
+                <a href="" aria-label="Иконка инстаграмм"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Иконка твиттер"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Иконка фейсбук"></a>
+              </li>
+              <li>
+                <a href="" aria-label="Иконка линкдИн"></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <!--Постоянные клиенты-->
+      <section class="clients">
+        <h2 class="clients-title">Постоянные клиенты</h2>
+        <ul>
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo1.svg"
+              alt="иконка клиента"
+              width="44"
+              height="49"
+            />
+          </li>
+
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo2.svg"
+              alt="иконка клиента"
+              width="40"
+              height="52"
+            />
+          </li>
+
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo3.svg"
+              alt="иконка клиента"
+              width="41"
+              height="42"
+            />
+          </li>
+
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo4.svg"
+              alt="иконка клиента"
+              width="80"
+              height="42"
+            />
+          </li>
+
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo5.svg"
+              alt="иконка клиента"
+              width="59"
+              height="47"
+            />
+          </li>
+
+          <li>
+            <a href="" aria-label="иконка клиента"></a>
+            <img
+              src="./img/logo6.svg"
+              alt="иконка клиента"
+              width="88"
+              height="45"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!--Подвал-->
+    <footer class="basement">
+      <div>
+        <a class="basement-logo" href="./index.html" lang="en"
+          ><span class="logo-first">Web</span> Studio</a
+        >
+        <ul>
+          <li>
+            <a
+              class="basement-adress"
+              href="https://goo.gl/maps/RTtHf1GJ1hVjc8JA8"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+
+          <li>
+            <a class="basement-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+
+          <li>
+            <a class="basement-number" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <b class="basement-join">Присоединяйтесь</b>
+        <ul>
+          <li>
+            <a href="" aria-label="Инстаграмм"></a>
+          </li>
+          <li>
+            <a href="" aria-label="Твиттер"></a>
+          </li>
+          <li>
+            <a href="" aria-label="Фейсбук"></a>
+          </li>
+          <li>
+            <a href="" aria-label="ЛинкдИн"></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
